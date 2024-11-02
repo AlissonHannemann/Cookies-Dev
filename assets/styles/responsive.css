@@ -1,0 +1,717 @@
+@media (min-width: 429px) and (max-width: 600px) {
+    header {
+        height: 120px;
+    }
+
+    header img {
+        width: 110px;
+        height: 100px;
+    }
+
+    header i {
+        font-size: 48px;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .novidades .cont {
+        width: 60%;
+    }
+
+    main .menuProdutos {
+        top: 120px;
+    }
+
+    main .menuProdutos .descricao1 {
+        font-size: 25px;
+        margin: 25px auto;
+    }
+
+    main .menuProdutos button {
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .rosquinhas .cont {
+        width: 60%;
+    }
+
+    .cupcakes .cont {
+        width: 60%;
+    }
+
+    main .sobreNos {
+        margin-top: 150px;
+    }
+
+    main .sobreNos h2 {
+        font-size: 40px;
+    }
+
+    main .sobreNos p {
+        font-size: 25px;
+        max-width: 90%;
+        margin: 30px auto;
+    }
+
+    main .sobreNos button {
+        width: 200px;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .contato h2 {
+        font-size: 40px;
+    }
+
+    main .contato .conteiner i {
+        font-size: 30px;
+    }
+
+    main .contato .conteiner p {
+        font-size: 23px;
+    }
+
+    header .fundoMenu {
+        top: 121px;
+    }
+
+    header .menuOff {
+        top: 121px;
+    }
+
+    header .menuOff ul a {
+        font-size: 30px;
+    }
+
+    header .menuOff .atalhos i {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    header {
+        height: 120px;
+    }
+
+    header img {
+        width: 110px;
+        height: 100px;
+    }
+
+    header i {
+        font-size: 48px;
+    }
+
+    .swiper {
+        width: 65%;
+        height: 250px;
+        margin-top: 170px;
+    }
+
+    .novidades h2 {
+        font-size: 45px;
+        margin: 33px 0;
+    }
+
+    .novidades .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .novidades .cont {
+        width: 60%;
+    }
+
+    #maisProdutos {
+        font-size: 25px;
+        padding: 13px;
+    }
+
+    footer ul a {
+        font-size: 23px;
+    }
+
+    footer .icones i {
+        font-size: 25px;
+    }
+
+    .rosquinhas h2 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .rosquinhas .cont {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .rosquinhas .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cupcakes h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .cupcakes .cont {
+        width: 60%;
+    }
+
+    .cupcakes .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    main .sobreNos {
+        margin-top: 150px;
+    }
+
+    main .sobreNos h2 {
+        font-size: 40px;
+    }
+
+    main .sobreNos p {
+        font-size: 25px;
+        max-width: 85%;
+        line-height: 35px;
+        margin: 25px auto;
+    }
+
+    #contato {
+        font-size: 25px;
+        padding: 12px;
+    }
+
+    main .contato h2 {
+        font-size: 40px;
+    }
+
+    main .contato .conteiner i {
+        font-size: 30px;
+    }
+
+    main .contato .conteiner p {
+        font-size: 23px;
+    }
+
+    main .menuProdutos {
+        top: 120px;
+    }
+
+    main .menuProdutos .caixa {
+        width: 80%;
+    }
+
+    .menuProdutos i {
+        font-size: 33px;
+    }
+
+    main .menuProdutos .descricao1 {
+        font-size: 30px;
+    }
+
+    main .menuProdutos button {
+        font-size: 25px;
+        padding: 12px;
+    }
+
+    header .fundoMenu {
+        top: 120px;
+    }
+
+    header .menuOff {
+        top: 120px;
+    }
+
+    header .menuOff ul a {
+        font-size: 27px;
+    }
+
+    header .menuOff .atalhos i {
+        font-size: 33px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    header {
+        height: 120px;
+    }
+
+    header img {
+        width: 110px;
+        height: 100px;
+    }
+
+    header i {
+        font-size: 48px;
+    }
+
+    .swiper {
+        width: 65%;
+        height: 250px;
+        margin-top: 170px;
+    }
+
+    .novidades h2 {
+        font-size: 45px;
+        margin: 33px 0;
+    }
+
+    .novidades .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .novidades .cont {
+        width: 60%;
+    }
+
+    #maisProdutos {
+        font-size: 25px;
+        padding: 13px;
+    }
+
+    footer ul a {
+        font-size: 25px;
+    }
+
+    footer .icones i {
+        font-size: 28px;
+    }
+
+    .rosquinhas h2 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .rosquinhas .cont {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .rosquinhas .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cupcakes h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .cupcakes .cont {
+        width: 60%;
+    }
+
+    .cupcakes .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    main .sobreNos {
+        margin-top: 150px;
+    }
+
+    main .sobreNos h2 {
+        font-size: 40px;
+    }
+
+    main .sobreNos p {
+        font-size: 27px;
+        max-width: 82%;
+        line-height: 38px;
+        margin: 25px auto;
+    }
+
+    #contato {
+        font-size: 25px;
+        padding: 12px;
+    }
+
+    main .contato h2 {
+        font-size: 40px;
+    }
+
+    main .contato .conteiner i {
+        font-size: 32px;
+        padding: 10px 6px;
+    }
+
+    main .contato .conteiner p {
+        font-size: 22px;
+        padding: 10px 5px;
+    }
+
+    main .menuProdutos {
+        top: 120px;
+    }
+
+    main .menuProdutos .caixa {
+        width: 80%;
+    }
+
+    .menuProdutos i {
+        font-size: 33px;
+    }
+
+    main .menuProdutos .caixa h2 {
+        font-size: 35px;
+    }
+
+    main .menuProdutos .caixa p {
+        font-size: 24px;
+    }
+
+    main .menuProdutos .descricao1 {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    main .menuProdutos button {
+        font-size: 27px;
+        padding: 14px;
+    }
+
+    header .fundoMenu {
+        top: 120px;
+    }
+
+    header .menuOff {
+        top: 120px;
+    }
+
+    header .menuOff ul a {
+        font-size: 27px;
+        padding: 12px;
+    }
+
+    header .menuOff .atalhos i {
+        font-size: 33px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    header {
+        height: 120px;
+    }
+
+    header img {
+        width: 110px;
+        height: 100px;
+    }
+
+    header i {
+        font-size: 48px;
+    }
+
+    .swiper {
+        width: 63%;
+        height: 250px;
+        margin-top: 170px;
+    }
+
+    .novidades h2 {
+        font-size: 45px;
+        margin: 33px 0;
+    }
+
+    .novidades .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .novidades .cont {
+        width: 63%;
+        padding: 20px 10px;
+    }
+
+    #maisProdutos {
+        font-size: 25px;
+        padding: 13px;
+    }
+
+    footer ul a {
+        font-size: 25px;
+    }
+
+    footer .icones i {
+        font-size: 28px;
+    }
+
+    .rosquinhas h2 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .rosquinhas .cont {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .rosquinhas .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cupcakes h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .cupcakes .cont {
+        width: 60%;
+    }
+
+    .cupcakes .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    main .sobreNos {
+        margin-top: 150px;
+    }
+
+    main .sobreNos h2 {
+        font-size: 40px;
+    }
+
+    main .sobreNos p {
+        font-size: 30px;
+        max-width: 80%;
+        line-height: 40px;
+        margin: 25px auto;
+    }
+
+    #contato {
+        font-size: 27px;
+        padding: 14px;
+    }
+
+    main .contato h2 {
+        font-size: 40px;
+    }
+
+    main .contato .conteiner i {
+        font-size: 32px;
+        padding: 10px 6px;
+    }
+
+    main .contato .conteiner p {
+        font-size: 22px;
+        padding: 10px 5px;
+    }
+
+    main .menuProdutos {
+        top: 120px;
+    }
+
+    main .menuProdutos .caixa {
+        width: 70%;
+    }
+
+    .menuProdutos i {
+        font-size: 33px;
+    }
+
+    main .menuProdutos .caixa h2 {
+        font-size: 35px;
+    }
+
+    main .menuProdutos .caixa p {
+        font-size: 24px;
+    }
+
+    main .menuProdutos .descricao1 {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    main .menuProdutos button {
+        font-size: 27px;
+        padding: 14px;
+    }
+
+    header .fundoMenu {
+        top: 120px;
+    }
+
+    header .menuOff {
+        top: 120px;
+    }
+
+    header .menuOff ul a {
+        font-size: 27px;
+        padding: 12px;
+    }
+
+    header .menuOff .atalhos i {
+        font-size: 33px;
+    }
+}
+
+@media (min-width: 1201px) {
+    header {
+        height: 100px;
+    }
+
+    header img {
+        width: 110px;
+        height: 100px;
+    }
+
+    header i {
+        font-size: 48px;
+    }
+
+    .swiper {
+        width: 60%;
+        height: 310px;
+        margin-top: 170px;
+    }
+
+    .novidades h2 {
+        font-size: 45px;
+        margin: 33px 0;
+    }
+
+    .novidades .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .novidades .cont {
+        width: 60%;
+        padding: 20px 10px;
+    }
+
+    #maisProdutos {
+        font-size: 25px;
+        padding: 13px;
+    }
+
+    footer ul a {
+        font-size: 20px;
+    }
+
+    footer .icones i {
+        font-size: 23px;
+    }
+
+    .rosquinhas h2 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .rosquinhas .cont {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .rosquinhas .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cupcakes h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .cupcakes .cont {
+        width: 60%;
+    }
+
+    .cupcakes .conteiner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    main .sobreNos {
+        margin-top: 150px;
+    }
+
+    main .sobreNos h2 {
+        font-size: 40px;
+    }
+
+    main .sobreNos p {
+        font-size: 20px;
+        max-width: 80%;
+        line-height: 35px;
+        margin: 25px auto;
+    }
+
+    #contato {
+        font-size: 27px;
+        padding: 14px;
+    }
+
+    main .contato h2 {
+        font-size: 40px;
+    }
+
+    main .contato .conteiner i {
+        font-size: 30px;
+        padding: 10px 6px;
+    }
+
+    main .contato .conteiner p {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+
+    main .menuProdutos {
+        top: 120px;
+    }
+
+    main .menuProdutos .caixa {
+        width: 70%;
+    }
+
+    .menuProdutos i {
+        font-size: 33px;
+    }
+
+    main .menuProdutos .caixa h2 {
+        font-size: 35px;
+    }
+
+    main .menuProdutos .caixa p {
+        font-size: 24px;
+    }
+
+    main .menuProdutos .descricao1 {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    main .menuProdutos button {
+        font-size: 27px;
+        padding: 14px;
+    }
+
+    header .fundoMenu {
+        top: 100px;
+    }
+
+    header .menuOff {
+        top: 100px;
+    }
+
+    header .menuOff ul a {
+        font-size: 27px;
+        padding: 12px;
+    }
+
+    header .menuOff .atalhos i {
+        font-size: 33px;
+    }
+}

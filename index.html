@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Dev</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fonte Montserrat  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="imagens/Cookies_Dev_Logo_with_color-removebg-preview.png" alt="">
+        <i class="bi bi-list" id="menuButton"></i>
+        <div class="menuOff">
+            <div class="atalhos">
+                <i class="bi bi-bag"></i>
+                <i class="bi bi-x-lg" id="fechar"></i>
+            </div>
+            
+            <ul>
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobreNos.html">Sobre nós</a>
+                <a href="contato.html">Contatos</a>
+            </ul>
+        </div>
+        <div class="fundoMenu">
+
+        </div>
+    </header>
+
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <p>Qualidade</p> <img src="imagens/fundo1.jpg" alt=""></div>
+                <div class="swiper-slide"> <p>Variedade</p> <img src="imagens/fundo3.jpg" alt=""></div>
+                <div class="swiper-slide"> <p>Sabor único</p> <img src="imagens/fundo2.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="novidades">
+            <h2>Novidades</h2>
+            <div class="conteiner">
+                <div class="cont" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="imagens/Cookies Amendoa.jpg" alt="" class="imagem">
+                    <h2 class="titulo">Cookie de Amendoa</h2>
+                    <p class="preco">R$10,00</p>
+                    <span class="descricao">Feito com amêndoas frescas e um toque de doçura na medida certa, é perfeito para quem busca uma experiência única.</span>
+                </div>
+                <div class="cont" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="imagens/Cookies Chocolate.jpg" alt="" class="imagem">
+                    <h2 class="titulo">Cookie de Chocolate</h2>
+                    <p class="preco">R$8,50</p>
+                    <span class="descricao">Um cookie de chocolate delicioso e indulgente, com uma massa macia repleta de pedaços de chocolate derretido.</span>
+                </div>
+                <div class="cont" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="imagens/Cookies Raspberry.jpg" alt="" class="imagem">
+                    <h2 class="titulo">Cookie de Raspberry</h2>
+                    <p class="preco">R$11,00</p>
+                    <span class="descricao">Um cookie de raspberry saboroso e irresistível, com uma massa macia que combina o doce e o azedo das framboesas frescas.</span>
+                </div>
+                <div class="cont" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="imagens/Cookies Recheado.jpg" alt="" class="imagem">
+                    <h2 class="titulo">Cookie Recheado</h2>
+                    <p class="preco">R$12,50</p>
+                    <span class="descricao">Um cookie recheado irresistível, com uma massa macia e dourada que revela um centro cremoso e saboroso.</span>
+                </div>
+            </div>
+        </div>
+
+        <button id="maisProdutos">Veja mais produtos</button>
+
+        <div class="menuProdutos">
+            <div class="caixa">
+                <i class="bi bi-x-lg" id="sairProdutos"></i>
+                <img src="" alt="" class="imagem1">
+                <h2 class="titulo1"></h2>
+                <p class="preco1"></p>
+            </div>
+            <p class="descricao1"></p>
+            <button class="comprar">Comprar</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <ul>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="sobreNos.html">Sobre nós</a>
+            <a href="contato.html">Contatos</a>
+        </ul>
+
+        <div class="icones">
+            <i class="bi bi-instagram" id="instagram"></i>
+            <i class="bi bi-facebook" id="facebook"></i>
+            <i class="bi bi-whatsapp" id="whatsapp"></i>
+            <i class="bi bi-envelope" id="email"></i>
+        </div>
+    </footer>
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+const progressCircle = document.querySelector(".autoplay-progress svg");
+const progressContent = document.querySelector(".autoplay-progress span");
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+    },
+});
+</script>
+
+<script src="assets/scripts/menu.js"></script>
+<script src="assets/scripts/directInicio.js"></script>
+<script src="assets/scripts/inicio.js"></script>
+<script src="assets/scripts/direcionamento.js"></script>
+
+</body>
+</html>
